@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "EPSO Coach",
+    "slug": "epso-trainer",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "epsocoach",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "android": {
+      "package": "com.epsocoach.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.epsocoach.app"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
