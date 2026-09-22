@@ -7,12 +7,17 @@
     "scheme": "epsocoach",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "icon": "./assets/icon.svg",
     "plugins": [
       "expo-router",
       "expo-sqlite"
     ],
     "android": {
-      "package": "com.epsocoach.app"
+      "package": "com.epsocoach.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.svg",
+        "backgroundColor": "#0F172A"
+      }
     },
     "ios": {
       "bundleIdentifier": "com.epsocoach.app"
