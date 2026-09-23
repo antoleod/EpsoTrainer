@@ -1,0 +1,65 @@
+{
+    "version":  1,
+    "name":  "EpsoTrainer",
+    "source":  {
+                   "branch":  "main"
+               },
+    "public":  {
+                   "repository":  "antoleod/EpsoTrainer",
+                   "branch":  "gh-pages",
+                   "url":  ""
+               },
+    "build":  {
+                  "adapter":  "expo",
+                  "command":  "npm run build",
+                  "output":  "dist",
+                  "prepare":  [
+                                  "npm run prepare:pwa"
+                              ],
+                  "environment":  {
+
+                                  }
+              },
+    "security":  {
+                     "blockSourceMaps":  true,
+                     "denyExtensions":  [
+                                            ".ts",
+                                            ".tsx",
+                                            ".jsx",
+                                            ".mjs",
+                                            ".cjs",
+                                            ".map",
+                                            ".ps1",
+                                            ".psm1",
+                                            ".cmd",
+                                            ".bat",
+                                            ".sh",
+                                            ".pem",
+                                            ".key",
+                                            ".pfx",
+                                            ".p12"
+                                        ],
+                     "denyNames":  [
+                                       "package.json",
+                                       "package-lock.json",
+                                       "pnpm-lock.yaml",
+                                       "yarn.lock",
+                                       "tsconfig.json",
+                                       ".env",
+                                       ".npmrc"
+                                   ],
+                     "denyDirectories":  [
+                                             ".git",
+                                             ".github",
+                                             ".publisher",
+                                             ".vscode",
+                                             ".idea",
+                                             "node_modules",
+                                             "src",
+                                             "scripts",
+                                             "test",
+                                             "tests",
+                                             "coverage"
+                                         ]
+                 }
+}
