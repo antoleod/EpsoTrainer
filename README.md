@@ -1,5 +1,7 @@
 # EPSO Coach
 
+[![Powered by RustChain](https://img.shields.io/badge/Powered%20by-RustChain-orange)](https://rustchain.org)
+
 **Mobile-first preparation for EPSO competitions, built around traceable sources and offline practice.**
 
 EPSO Coach is an open-source React Native application designed to support structured preparation for EPSO competitions. The project combines guided learning, practice, mock exams and progress review while keeping competition rules tied to official source material.
